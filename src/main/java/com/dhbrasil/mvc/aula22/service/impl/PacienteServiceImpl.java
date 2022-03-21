@@ -13,7 +13,6 @@ public class PacienteServiceImpl implements PacienteService {
 
     @Override
     public List<Paciente> listPacientes() {
-        return Arrays.asList(new Paciente("Carlos", "You"));
-
+        return Arrays.asList(new Paciente("Marcos", "Lucas"), new Paciente("José", "Almeida"), new Paciente("Tom", "Rodrigues"));
     }
 }
